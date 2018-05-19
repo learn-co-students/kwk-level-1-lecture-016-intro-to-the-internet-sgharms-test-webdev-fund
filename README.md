@@ -98,6 +98,8 @@ In general, there are two core flavors of HTTP requests: `GET` and `POST`.
 In addition to `GET` and `POST` requests, there are additional types of HTTP requests, or **HTTP verbs**, with most of them describing more specific kinds of `POST` actions. For now, keep in mind:
   - `GET` is for retrieving something the server owns, without changing data the server owns
   - `POST` is for communicating that some data on the server should be changed, be it creation, alteration, deletion, etc.
+#### CFU: Turn and Talk
+"In your own words, what is the difference between get and post? Provide an example for each if you were using Instagram."
 
 #### HTTP-Responses
 
@@ -114,3 +116,6 @@ You are likely familiar with two common status codes already: 200 and 404. A res
 **NOTE:** Show the students now in the browser an example of a 404 response. Try some common URL, (such as `google.com`, but even better if you ask the students to provide one), and then affix some nonsense route to it, (such as `google.com/memes`). We not only get a response with a status of 404 back, but Google is kind enough to send back a custom page for whenever a request is doomed to have a 404 response.
 
 **NOTE:** Ask the students to use google to determine the 5 general types of status codes. Drive home that they are grouped in the hundreds, and that while it's not worthwhile to memorize what each individual status code means right now, it is worthwhile to familiarize yourself with the 5 groups. 
+
+#### CFU: Polleverywhere
+Have students answer 3-4 quick questions reviewing what we covered in the lecture.
